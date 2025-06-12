@@ -3,4 +3,8 @@
 from countdown import countdown, countdown_with_sleep
 
 if __name__ == '__main__':
-    import ipdb; ipdb.set_trace()
+    print("Running countdown:")
+    countdown(5)
+
+    print("\nRunning countdown_with_sleep:")
+    countdown_with_sleep(3)
